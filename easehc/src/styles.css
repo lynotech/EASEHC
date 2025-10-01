@@ -182,3 +182,10 @@ footer.site-footer { border-top: 1px solid rgba(255,255,255,.15); padding: 2rem 
   background: linear-gradient(135deg, #3a0ca3, #4895ef);
   color: #fff; font-weight: 600; margin-bottom: .5rem;
 }
+
+/* Team section overrides: transparent cards */
+.team-section .team-card {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.0);
+  box-shadow: none;
+}

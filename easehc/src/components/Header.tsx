@@ -17,8 +17,8 @@ export default function Header() {
     <header className="sticky-header" style={{background:'rgba(0,0,0,0)'}}>
       <div className="container" style={{display:'flex',alignItems:'center',justifyContent:'space-between',height:'64px'}}>
         <Link to="/" className="flex items-center gap-2">
-          <img src="/imagens/logo.png" className="h-10" alt="Logo EaseHC" />
-          <span className="font-semibold">EaseHC</span>
+          <img src="/imagens/LOGO.png" className="h-20 md:h-22 lg:h-24" alt="Logo EaseHC" />
+          <span className="font-semibold"></span>
         </Link>
         <button className="lg:hidden p-2 rounded-lg" onClick={() => setOpen(!open)} aria-label="Abrir menu">
           ☰
